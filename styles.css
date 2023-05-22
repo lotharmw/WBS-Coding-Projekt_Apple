@@ -190,6 +190,7 @@ link {
 }
 
 .title.white h5 {
+    width: 500px;
     font-size: 21px;
     line-height: 1.2381;
     font-weight: 400;
