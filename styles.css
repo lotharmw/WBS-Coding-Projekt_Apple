@@ -4,3 +4,38 @@
     box-sizing: border-box;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+
+header{
+    width: 100%;
+    background-color: rgba(22, 22, 23, .8);
+    color: rgba(255, 255, 255, .8);
+    font-size: 5%;
+
+}
+
+.info{
+    color: black;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-around;
+    align-content:space-between;
+    align-items:center;
+    padding: 5px;
+    margin: 0 auto;
+    list-style: none;
+
+
+}
+
+
+}
