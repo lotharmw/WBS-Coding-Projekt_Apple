@@ -16,11 +16,11 @@ header{
 header nav ul{
     display: flex;
     flex-direction: row;
-    width: 72%;
+    width: 82%;
     justify-content: space-around;
     align-content:space-between;
     align-items:center;
-    padding: 5px;
+    padding: 5px 3px;
     margin: 0 auto;
     list-style: none;
     color: rgba(255, 255, 255, .8) ;
