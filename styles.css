@@ -5,7 +5,43 @@
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
-/* Main */
+header{
+    width: 100%;
+    background-color: rgba(22, 22, 23, .8);
+    color: rgba(255, 255, 255, .8);
+    font-size: 5%;
+    position: fixed;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 82%;
+    justify-content: space-around;
+    align-content:space-between;
+    align-items:center;
+    padding: 5px 3px;
+    margin: 0 auto;
+    list-style: none;
+    color: rgba(255, 255, 255, .8) ;
+}
+
+header nav ul li a{
+    color: rgba(255, 255, 255, .8);
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    color: white;    
+}
+
+.info{
+    color: black;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
 
 .hero.bg-1 {
     background-image: url("./img/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg");
